@@ -1,0 +1,26 @@
+### Q1. How is the district summary affected?
+
+	(i) Since Thomas High School 9th graders form 1% of the district population, removing math and reading scores for them drops the passing math%, passing reading% and overall passing% for the district by 1%
+
+	(ii) The average math and reading scores for the district remain unaffected as these students are not considered in calculating the mean values
+
+
+### Q2. How is the school summary affected?
+
+	(i) Only Thomas High School is affected by deleting the scores of 9th graders for Thomas High School, and replacing them with Nan
+
+	(ii) For Thomas High School, the % passing scores (reading, math and overall) are affected but the averages are not affected for the same reason provided in question#1
+
+
+### Q3. How does removing the ninth graders’ math and reading scores affect Thomas High School’s performance, relative to the other schools?
+
+	(i) It significantly drops the % passing for reading, math and overall
+
+	(ii) The average reading and math scores remain unchanged
+
+### Q4. How does removing the ninth-grade scores affect the Math and Reading Scores by Grade, Scores by School Spending, Scores by School Size, and Scores by School Type? 
+
+	(i) In each of these analysis (i.e. by Grade, school spending, size and school type), only the bins where Thomas High School belonged i.e. 9th Grade, $630-644, Medium (1000-2000), and Charter Type are affected
+
+	(ii) Within each of these bins, the average scores remained the same but the % passing was affected. The magnitude of affect was based on how much Thomas High School student count contributed to the overall student count in each of the bins
+
